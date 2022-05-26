@@ -49,7 +49,7 @@ global.author = 'FangzGanz' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.sessionName = 'session'
 
 //—————「 Set Limit 」—————//
-//terserah mau ubah atau nggak, note : tanda ' gausah di hapus!
+//terserah mau ubah atau nggak, note : tanda ' gausah di hapus ya 🗿
 global.limitawal = {
 premium: "Infinity",
 free: 15,
@@ -82,18 +82,20 @@ global.sp = '⭔'
 //—————「 Set Message 」—————//
 //terserah mau ubah apa nggak, note : tanda ' gausah di hapus!
 global.mess = {
-success: '_Done._',
-admin: '_Fitur Khusus Admin Group!_',
-botAdmin: '_Bot Harus Menjadi Admin Terlebih Dahulu!_',
-owner: '_Fitur Khusus Owner Bot_',
-group: '_Fitur Digunakan Hanya Untuk Group!_',
-private: '_Fitur Digunakan Hanya Untuk Private Chat!_',
-bot: '_Fitur Khusus Pengguna Nomor Bot_',
-wait: '_Sedang Di Proses..._',
-error: '_Fitur Sedang Error!_',
-endLimit: '_Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12_',
+	toxic: '',
+	kartun: '𝐇𝐮𝐮 𝐈𝐬𝐭𝐫𝐢 𝐤𝐨 𝐤𝐚𝐫𝐭𝐮𝐧',
+	pedo: '𝐓𝐜𝐡, 𝐃𝐚𝐬𝐚𝐫 𝐏𝐞𝐝𝐨𝐟𝐢𝐥',
+    success: '*✓ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬*',
+    admin: '𝐅𝐢𝐭𝐮𝐫 𝐊𝐡𝐮𝐬𝐮𝐬 𝐀𝐝𝐦𝐢𝐧 𝐆𝐫𝐨𝐮𝐩!',
+    botAdmin: '𝐁𝐨𝐭 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 𝐓𝐞𝐫𝐥𝐞𝐛𝐢𝐡 𝐃𝐚𝐡𝐮𝐥𝐮!',
+    owner: '𝐅𝐢𝐭𝐮𝐫 𝐊𝐡𝐮𝐬𝐮𝐬 𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭',
+    group: '𝐅𝐢𝐭𝐮𝐫 𝐃𝐢𝐠𝐮𝐧𝐚𝐤𝐚𝐧 𝐇𝐚𝐧𝐲𝐚 𝐔𝐧𝐭𝐮𝐤 𝐆𝐫𝐨𝐮𝐩!',
+    private: '𝐅𝐢𝐭𝐮𝐫 𝐃𝐢𝐠𝐮𝐧𝐚𝐤𝐚𝐧 𝐇𝐚𝐧𝐲𝐚 𝐔𝐧𝐭𝐮𝐤 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭!',
+    bot: '𝐅𝐢𝐭𝐮𝐫 𝐊𝐡𝐮𝐬𝐮𝐬 𝐏𝐞𝐧𝐠𝐠𝐮𝐧𝐚 𝐍𝐨𝐦𝐨𝐫 𝐁𝐨𝐭',
+    wait: '*𝐋𝐨𝐚𝐝𝐢𝐧𝐠...*',
+    error: '𝐅𝐢𝐭𝐮𝐫 𝐬𝐞𝐝𝐚𝐧𝐠 𝐞𝐫𝐫𝐨𝐫!',
+    endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
-
 //—————「 Batas Akhir 」—————//
 //gausah si apa² in!
 let file = require.resolve(__filename)
