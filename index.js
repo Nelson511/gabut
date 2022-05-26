@@ -565,11 +565,8 @@ case 'gropen':
 reply('Tungu saja mungkin dia lagi sibuk atau data nya abis\n\n intinya pasti bakal di Jawab ko🐦')
 break
 
-case 'p':
-case 'Nelson':
-case 'nelson':
-case 'Nel':
-case 'nel':
+case 'darma':
+case 'fang':
 case 'bang':
 case 'woi':
 case 'hi':
@@ -583,7 +580,7 @@ case 'Son':
 case 'P':
 if (m.isGroup) return
 let buttons = [
-                        { buttonId: 'gropen', buttonText: { displayText: '𝐒𝐚𝐲𝐚 𝐌𝐞𝐧𝐜𝐚𝐫𝐢 𝐍𝐞𝐥𝐬𝐨𝐧' }, type: 1 },
+                        { buttonId: 'gropen', buttonText: { displayText: '𝐒𝐚𝐲𝐚 𝐌𝐞𝐧𝐜𝐚𝐫𝐢 𝗗𝗮𝗿𝗺𝗮' }, type: 1 },
                         { buttonId: 'grclose', buttonText: { displayText: '𝐆𝐚𝐤 𝐉𝐚𝐝𝐢🐦' }, type: 1 }
                     ]
                     await chika.sendButtonText(m.chat, buttons, `𝐈𝐲𝐚 𝐀𝐝𝐚 𝐘𝐚𝐧𝐠 𝐁𝐢𝐬𝐚 𝐒𝐚𝐲𝐚 𝐁𝐚𝐧𝐭𝐮 𝐊𝐚𝐤 ${pushname} ?\n`, chika.user.name, m)
@@ -932,9 +929,7 @@ chika.sendMessage(from,{audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted
  break   
  
  
- case 'nelson':
- case 'nel':
- case 'son':
+ 
  case 'apa':
  case 'apasih':
  case 'idih':
@@ -1152,7 +1147,7 @@ case '.kapankah':
 					break
 
 case 'wangy':
-              if (!q) return reply (`Contoh : .𝗪𝗮𝗻𝗴𝘆 𝗡𝗲𝗹𝘀𝗼𝗻`)
+              if (!q) return reply (`Contoh : .𝗪𝗮𝗻𝗴𝘆 𝗗𝗮𝗿𝗺𝗮`)
               qq = q.toUpperCase()
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
               reply(awikwok)
