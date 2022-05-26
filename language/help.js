@@ -496,7 +496,7 @@ Thanks!
   *Minat? Langsung chat aja ya cuy 🐦*
 
   *Contact person Owner* :
-  https://wa.me/message/LQNEJVLYV5HZI1
+  http://wa.me/6288215689772
 `
 }
 
